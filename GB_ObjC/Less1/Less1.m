@@ -55,7 +55,7 @@ struct myExpression {
         
     }
     NSLog(@"\nВозведение числа в степени в степень: %.2f, %.2f, %.2f равно %.2f", firstNumber, secondNumber, thirdNumber, resultExp);
-    
+
     
 }
 @end
