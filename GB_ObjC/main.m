@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
         float thirdNumber = 0.0;
         
         // insert code here...
-        NSLog(@"\nFрифметические операции с тремя числами.\nВведите первое число: ");
+        NSLog(@"\nАрифметические операции с тремя числами.\nВведите первое число: ");
         scanf("%f", &firstNumber);
         printf("Введите второе число: ");
         scanf("%f", &secondNumber);
