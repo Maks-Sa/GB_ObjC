@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		00DC7FEE267B6DA7006730DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DC7FED267B6DA7006730DE /* main.m */; };
 		00DC7FF7267B6DC4006730DE /* Less1.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DC7FF6267B6DC4006730DE /* Less1.m */; };
+		00FD0E8526834E8A000264E3 /* Less2.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FD0E8426834E8A000264E3 /* Less2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		00DC7FED267B6DA7006730DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00DC7FF5267B6DC4006730DE /* Less1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Less1.h; sourceTree = "<group>"; };
 		00DC7FF6267B6DC4006730DE /* Less1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Less1.m; sourceTree = "<group>"; };
+		00FD0E8326834E89000264E3 /* Less2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Less2.h; sourceTree = "<group>"; };
+		00FD0E8426834E8A000264E3 /* Less2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Less2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		00DC7FEC267B6DA6006730DE /* GB_ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				00EFA4B02684937500E4D990 /* Less2 */,
 				00DC7FF9267B6DCB006730DE /* Less1 */,
 				00DC7FED267B6DA7006730DE /* main.m */,
 			);
@@ -73,6 +77,15 @@
 				00DC7FF6267B6DC4006730DE /* Less1.m */,
 			);
 			path = Less1;
+			sourceTree = "<group>";
+		};
+		00EFA4B02684937500E4D990 /* Less2 */ = {
+			isa = PBXGroup;
+			children = (
+				00FD0E8326834E89000264E3 /* Less2.h */,
+				00FD0E8426834E8A000264E3 /* Less2.m */,
+			);
+			path = Less2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FD0E8526834E8A000264E3 /* Less2.m in Sources */,
 				00DC7FF7267B6DC4006730DE /* Less1.m in Sources */,
 				00DC7FEE267B6DA7006730DE /* main.m in Sources */,
 			);
